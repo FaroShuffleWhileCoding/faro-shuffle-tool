@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+
+* {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#main {
+  margin: 50px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  border: 4px solid #000000;
+  background: rgba(209, 204, 192, 0.4);
+  opacity: 0.85;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+#main:hover {
+  opacity: 1;
+}
+
+#txt-starting,
+#txt-wanted {
+  font-size: 35px;
+  text-align: center;
+  position: relative;
+  top: -20px;
+}
+
+#starting-text,
+#ending-text {
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  top: -10px;
+}
+
+#shuffle-code {
+  font-size: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.slider {
+  -webkit-appearance: none;
+  height: 50px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.85;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  margin: 20px;
+  border: solid 4px black;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+#starting::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50px;
+  height: 42px;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+#wanted::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50px;
+  height: 42px;
+  background: #bf2222;
+  cursor: pointer;
+}
+
+#starting::-moz-range-thumb {
+  height: 50px;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+#wanted::-moz-range-thumb {
+  height: 50px;
+  background: #bf2222;
+  cursor: pointer;
+}

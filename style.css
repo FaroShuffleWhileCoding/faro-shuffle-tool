@@ -31,7 +31,7 @@ h2 {
 
 #txt-starting,
 #txt-wanted {
-  font-size: 20px;
+  font-size: 35px;
   text-align: center;
   position: relative;
   top: -20px;
@@ -39,7 +39,7 @@ h2 {
 
 #starting-text,
 #ending-text {
-  font-size: 15px;
+  font-size: 30px;
   text-align: center;
   position: relative;
   top: -10px;

@@ -1,6 +1,6 @@
 let sliderStarting = document.getElementById('starting');
 
-sliderStarting.onmouseup = function () {
+sliderStarting.onpointerup = function () {
   startingP();
 };
 
@@ -8,7 +8,7 @@ let startingOutput = document.getElementById('txt-starting');
 
 let sliderWanted = document.getElementById('wanted');
 
-sliderWanted.onmouseup = function () {
+sliderWanted.onpointerup = function () {
   endingP();
 };
 

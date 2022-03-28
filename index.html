@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hubballi&family=IBM+Plex+Sans+Arabic&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <section id="faro-shuffle-tool">
+    <h1>FARO SHUFFLE CARD POSITION TOOL</h1>
+    <h2>ANY CARD TO ANY POSITION</h2>
+      <div id="main">
+        <div class="slide-starting-pos">
+          
+          <input type="range" min="1" max="51" value="1" class="slider" id="starting">
+          <p id="starting-text">STARTING POS</p>
+          <p id="txt-starting"></p>
+        </div>
+        
+        <p id="shuffle-code"></p>
+        
+        <div class="slide-wanted-pos">
+         
+          <input type="range" min="1" max="51" value="1" class="slider" id="wanted">
+          <p id="ending-text">ENDING POS</p>
+           <p id="txt-wanted"></p>
+        </div>
+      </div>  
+    <script src="script.js"></script>
+    </section>
+  </body>
+</html>

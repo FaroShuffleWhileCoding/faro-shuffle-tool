@@ -46,7 +46,7 @@ h2 {
 }
 
 @media (max-width: 1024px) and (orientation: portrait){ /* tablet and smaller */
-  #shuffle-code:after{
+  #shuffle-code {
   font-size: 35px;
   display: block;
   margin-left: auto;

@@ -31,7 +31,7 @@ h2 {
 
 #txt-starting,
 #txt-wanted {
-  font-size: 35px;
+  font-size: 18px;
   text-align: center;
   position: relative;
   top: -20px;
@@ -46,7 +46,7 @@ h2 {
 }
 
 #shuffle-code {
-  font-size: 35px;
+  font-size: 18px;
   display: block;
   margin-left: auto;
   margin-right: auto;

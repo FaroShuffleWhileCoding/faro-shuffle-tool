@@ -16,6 +16,6 @@ If you're interested in faro shuffles or want to learn more about the math and a
 
 I'm guessing there aren't too many people who would find this useful or even interesting but I do find it very fascinating how it all works and that it can work in general and with not too many shuffles.
 
-Live Demo Here: https://ken150.github.io/faro-shuffle-tool/
+Live Demo Here: https://faroshufflewhilecoding.github.io/faro-shuffle-tool/
 
 

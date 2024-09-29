@@ -1,21 +1,50 @@
-# faro-shuffle-tool
-A tool to calculate the number of and types of faro shuffles to control a card from any starting position to any other position.
+# Faro Shuffle Control Tool
 
-Currently you always need to start with the green slider and input the card at the starting position and then the red one for the ending position each time. So you can't switch between them, it always has to start and end from green to red.
+This tool calculates the number and types of faro shuffles needed to move a card from any starting position to any ending position within a deck.
 
-To make sure it works correctly, here's some very important things to know:
+## Important Things to Know
 
-1) Make sure to read above about the green and red sliders
-2) It currently works with a deck of 52 or 51 cards (For 51, when faceup cut 25 to left and 26 to right for In shuffles, 26 to left and 25 to right for Outs)
-3) I is for a modified In perfect faro shuffle
-4) O is for a regular Out perfect faro shuffle
-5) I find it easiest to execute the modified In shuffle by starting the shuffle in the left hand face up. For 52 cards, you cut 25 to the left, 27 to the right and the left hand goes one card below or into the right leaving the bottom two cards on the bottom.
-6) I haven't tested it extensively so it may not work 100% of the time or may not always be the optimal amount of shuffles however it has been working well the times I have tested it
+1. **Slider Usage**: Always start with the green slider (starting position) before using the red slider (ending position). The tool doesn't support switching between them.
 
-If you're interested in faro shuffles or want to learn more about the math and algorithm behind how this tool works I based it off of an ebook called Faro Concepts. Particularly pages 41 to 45 were most useful in figuring it out. It's available here on Lybrary: https://www.lybrary.com/faro-concepts-p-260727.html
+2. **Deck Sizes**: Works with 52 or 51 cards.
+   - For 51 cards:
+     - In shuffles: Cut 25 to left, 26 to right (when face up)
+     - Out shuffles: Cut 26 to left, 25 to right (when face up)
 
-I'm guessing there aren't too many people who would find this useful or even interesting but I do find it very fascinating how it all works and that it can work in general and with not too many shuffles.
+3. **Shuffle Types**:
+   - **I**: Modified In perfect faro shuffle
+   - **O**: Regular Out perfect faro shuffle
 
-Live Demo Here: https://faroshufflewhilecoding.github.io/faro-shuffle-tool/
+4. **Modified In Shuffle Technique**:
+   - Start with the deck face up in your left hand
+   - For 52 cards: Cut 25 to the left, 27 to the right
+   - Weave the cards together, keeping one card from the right packet on top
+   - This leaves the bottom two cards of the right packet unweaved at the face of the deck
 
+5. **Limitations**:
+   - May not always provide the optimal number of shuffles
+   - Not extensively tested for all scenarios
 
+## How to Use
+
+1. Use the green slider to set the card's starting position
+2. Use the red slider to set the card's desired ending position
+3. The tool will display the required shuffle sequence
+
+## Features
+
+- Works with decks of 52 or 51 cards
+- Calculates shuffle sequence for card control
+- Supports modified In shuffles and regular Out shuffles
+
+## Learn More
+
+This tool is based on concepts from the ebook "Faro Concepts" (pages 41-45). For those interested in the math and algorithms behind faro shuffles, you can find the ebook [here on Lybrary](https://www.lybrary.com/faro-concepts-p-260727.html).
+
+## Feedback and Contributions
+
+This tool offers fascinating insights into the mechanics of faro shuffles. If you find any issues or have suggestions for improvements, please feel free to contribute or provide feedback.
+
+## Live Demo
+
+[Try the Faro Shuffle Tool here](https://faroshufflewhilecoding.github.io/faro-shuffle-tool/)

@@ -1,4 +1,4 @@
-# Faro Shuffle Control Tool
+# Faro Shuffle Tool
 
 This tool calculates the number and types of faro shuffles needed to move a card from any starting position to any ending position within a deck.
 
